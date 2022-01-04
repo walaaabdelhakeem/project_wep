@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='style2.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="outside">
+            <form id="survey-form" action="/my-handling-form-page" method="post">
+              <h1 id="title">form for order</h1>
+        <fieldset>
+            
+            <legend> order</legend>
+            <!-- formally describes the purpose of buy book it is included inside. -->
+            <div>
+              <label id="email-label" for="Email">auther name:</label>
+              <input type="text" required id="text" name="auther" placeholder="Enter auther here">  
+            </div>
+            <div>
+              <label id="how many copies" for="iq">how many copies:</label>
+              <input type="number" id="how many copies" name="how many burgers" placeholder="Enter how many copies here">
+             </div>
+             <div>
+                <label id="book" for="Email">book name:</label>
+                <input type="text" required id="book" name="book" placeholder="Enter book name here">
+             </div>
+        </fieldset>
+            <div id="submitbutton">
+                <button type="submit" id="submit">Send your order</button> 
+                </div>
+            </form>
+          </div>
+    </body>
+</html>

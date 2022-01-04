@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='style2.css' rel='stylesheet'>
+    </head>
+    <body>
+        
+        <div id="outside">
+            <form id="survey-form" action="/my-handling-form-page" method="post">
+              <h1 id="title">form for sign in our bookstore</h1>
+              <div id="templatemo_menu">
+            
+                    <button type="submit" ><a href="index.html" style="text-decoration: none;color: rgb(250, 250, 250);"> Home</a></button>
+                
+            </div>
+        <fieldset>
+            <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+            <legend> order</legend>
+            <!-- formally describes the purpose of the fieldset it is included inside. -->
+            <div>
+              <label id="name-label" for="name">Name:</label>
+              <input type="text" required id="name" name="user_name" placeholder="Enter name here">  </div>
+            <div>
+              <label for="address-label">Address:</label>
+              <input type="Address" id="address" name="Address" placeholder="Enter address here">  </div>
+            <div>
+              <label id="email-label" for="Email">Email:</label>
+              <input type="email" required id="email" name="user_email" placeholder="Enter email here">  
+            </div>
+            <div>
+              <label id="number-label" for="phone">Id:</label>
+              <input type="number" id="number" name="user_name" placeholder="Enter  digit number+litters" > </div>
+            <div>
+              <label id="password" for="iq">passward:</label>
+              <input type="password" id="password" name="password" placeholder="password">
+             </div>
+        </fieldset>
+            <div id="submitbutton">
+                <button type="submit" id="submit">Send your form</button> 
+                </div>
+            </form>
+          </div>
+    </body>
+</html>
